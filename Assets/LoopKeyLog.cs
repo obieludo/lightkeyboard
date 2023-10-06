@@ -4,63 +4,72 @@ using UnityEngine;
 
 public class LoopKeyLog : MonoBehaviour
 {
-    private KeyCode lastHitKey;
-    public int[] keysPressed;
+    private int lastHitKey;
+    public List<int> loggedKeys;
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            lastHitKey = KeyCode.Q;
+            lastHitKey = 1;
             Debug.Log("1");
+            loggedKeys.Add(lastHitKey);
+
         }
 
         if (Input.GetKeyDown(KeyCode.W))
         {
-            lastHitKey = KeyCode.W;
+            lastHitKey = 2;
             Debug.Log("2");
+            loggedKeys.Add(lastHitKey);
         }
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            lastHitKey = KeyCode.E;
+            lastHitKey = 3;
             Debug.Log("3");
+            loggedKeys.Add(lastHitKey);
         }
 
         if (Input.GetKeyDown(KeyCode.R))
         {
-            lastHitKey = KeyCode.R;
+            lastHitKey = 4;
             Debug.Log("4");
+            loggedKeys.Add(lastHitKey);
         }
 
         if (Input.GetKeyDown(KeyCode.T))
         {
-            lastHitKey = KeyCode.T;
+            lastHitKey = 5;
             Debug.Log("5");
+            loggedKeys.Add(lastHitKey);
         }
 
         if (Input.GetKeyDown(KeyCode.Y))
         {
-            lastHitKey = KeyCode.Y;
+            lastHitKey = 6;
             Debug.Log("6");
+            loggedKeys.Add(lastHitKey);
         }
 
         if (Input.GetKeyDown(KeyCode.U))
         {
-            lastHitKey = KeyCode.U;
+            lastHitKey = 7;
             Debug.Log("7");
+            loggedKeys.Add(lastHitKey);
         }
         
         if (Input.GetKeyDown(KeyCode.I))
         {
-            lastHitKey = KeyCode.I;
-            Debug.Log("8");
+            lastHitKey = 8;
+            loggedKeys.Add(lastHitKey);
         }
 
         if (Input.GetKeyDown(KeyCode.O))
         {
-            lastHitKey = KeyCode.O;
-            Debug.Log("9");
+            lastHitKey = 9;
+            loggedKeys.Add(lastHitKey);
         }
+
     }
 }
