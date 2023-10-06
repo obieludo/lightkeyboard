@@ -4,71 +4,72 @@ using UnityEngine;
 
 public class PlaySoundOnKeyPress : MonoBehaviour
 {
-    public AudioSource AKeyClip;
-    public AudioSource SKeyClip;
-    public AudioSource DKeyClip;
-    public AudioSource FKeyClip;
-    public AudioSource GKeyClip;
-    public AudioSource HKeyClip;
-    public AudioSource JKeyClip;
-    public AudioSource KKeyClip;
-    public AudioSource LKeyClip;
+    public AudioSource QKeyClip;
+    public AudioSource WKeyClip;
+    public AudioSource EKeyClip;
+    public AudioSource RKeyClip;
+    public AudioSource TKeyClip;
+    public AudioSource YKeyClip;
+    public AudioSource UKeyClip;
+    public AudioSource IKeyClip;
+    public AudioSource OKeyClip;
 
-    // Update is called once per frame
-    void Update()
+
+        // Update is called once per frame
+        void Update()
     {
         //First Key - A
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
-            AKeyClip.Play();
+            QKeyClip.Play();
         }
 
-        //Second Key - S
-        if (Input.GetKeyDown(KeyCode.S))
+        //Second Key - W
+        if (Input.GetKeyDown(KeyCode.W))
         {
-            SKeyClip.Play();
+            WKeyClip.Play();
         }
 
-        //Third Key - D
-        if (Input.GetKeyDown(KeyCode.D))
+        //Third Key - E
+        if (Input.GetKeyDown(KeyCode.E))
         {
-            DKeyClip.Play();
+            EKeyClip.Play();
         }
 
-        //Fourth Key - F
-        if (Input.GetKeyDown(KeyCode.F))
+        //Fourth Key - R
+        if (Input.GetKeyDown(KeyCode.R))
         {
-            FKeyClip.Play();
+            RKeyClip.Play();
         }
 
-        //Fifth Key - G
-        if (Input.GetKeyDown(KeyCode.G))
+        //Fifth Key - T
+        if (Input.GetKeyDown(KeyCode.T))
         {
-            GKeyClip.Play();
+            TKeyClip.Play();
         }
 
-        //Sixth Key - H
-        if (Input.GetKeyDown(KeyCode.H))
+        //Sixth Key - Y
+        if (Input.GetKeyDown(KeyCode.Y))
         {
-            HKeyClip.Play();
+            YKeyClip.Play();
         }
 
-        //Seventh Key - J
-        if (Input.GetKeyDown(KeyCode.J))
+        //Seventh Key - U
+        if (Input.GetKeyDown(KeyCode.U))
         {
-            JKeyClip.Play();
+            UKeyClip.Play();
         }
         
-        //Eigth Key - K
-        if (Input.GetKeyDown(KeyCode.K))
+        //Eigth Key - I
+        if (Input.GetKeyDown(KeyCode.I))
         {
-            KKeyClip.Play();
+            IKeyClip.Play();
         }
 
-        //Ninth Key - L
-        if (Input.GetKeyDown(KeyCode.L))
+        //Ninth Key - O
+        if (Input.GetKeyDown(KeyCode.O))
         {
-            LKeyClip.Play();
+            OKeyClip.Play();
         }
 
     }
